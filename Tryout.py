@@ -4,6 +4,7 @@ family = {
     "brother": "3",
     "sister": "4"
 }
-print(family["mummy"])
+for key in family:
+    print(family[key])
 
 
