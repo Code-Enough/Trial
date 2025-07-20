@@ -1,3 +1,9 @@
-family = ["Daddy", "mummy", "brother", "sister"]
-for elem in family:
-    print(elem)
+family = {
+    "Daddy": "1",
+    "mummy": "2",
+    "brother": "3",
+    "sister": "4"
+}
+print(family["mummy"])
+
+
